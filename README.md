@@ -1,0 +1,2 @@
+Linux based operating system
+lightweight

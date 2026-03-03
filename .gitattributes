@@ -1,0 +1,18 @@
+# Semua file kode, script, config → LF
+*.sh      text eol=lf
+*.c       text eol=lf
+*.h       text eol=lf
+*.mk      text eol=lf
+*.config  text eol=lf
+Kbuild    text eol=lf
+Makefile  text eol=lf
+*.md      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+
+# File Windows (batch, project, dsb) → CRLF
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+
+# File teks biasa (biarkan auto, sesuai OS user)
+*         text=auto
